@@ -23,7 +23,7 @@ export default async function DashboardPage() {
         </div>
       ) : (
         <div className="flex gap-4">
-          {favorites.map(fav => (
+          {favorites.map((fav: { id: string; symbol: string }) => (
             <div key={fav.id} className="bg-gray-800 px-4 py-2 rounded-xl border border-gray-700">
               {fav.symbol}
             </div>
