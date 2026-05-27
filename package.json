@@ -12,6 +12,7 @@
     "@auth/prisma-adapter": "^2.11.2",
     "@neondatabase/serverless": "^1.1.0",
     "@prisma/client": "^6.19.3",
+    "@prisma/extension-optimize": "^2.0.1",
     "bcrypt": "^6.0.0",
     "lightweight-charts": "^5.2.0",
     "next": "16.2.6",
